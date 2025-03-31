@@ -1,5 +1,21 @@
 body {
     background: no-repeat url(/assets/images/4_6003564307789387886.png);
     background-size:cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
     
 }
+.custom::-webkit-scrollbar {
+    height: 6px;
+  }
+
+  .custom::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 3px;
+  }
+
+  /* Firefox */
+  .custom {
+    scrollbar-width: thin;
+    scrollbar-color: #666 #222;
+  }
