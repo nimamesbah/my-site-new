@@ -19,3 +19,15 @@ body {
     scrollbar-width: thin;
     scrollbar-color: #666 #222;
   }
+  #about-me-text{
+    direction: rtl;
+  }
+  #library{
+    background: no-repeat url(/assets/images/library.png) right;
+    background-size: cover;
+    
+  }
+  #gems{
+    background: no-repeat url(/assets/images/gems.png) right;
+    background-size: cover;
+  }
