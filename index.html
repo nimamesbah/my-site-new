@@ -10,6 +10,7 @@
 
 </head>
 <body class="">
+  <div id="loading" class="bg-blue-400 duration-300 opacity-100 w-full h-screen absolute z-50"></div>
     <div id="shade" class="w-full h-full backdrop-blur-lg  absolute ">
         <div id="container" class="max-w-[1160px] h-[550px] mx-auto mt-[50px] bg-[rgba(20,49,91,0.59)] rounded-[20px] ">
             <div id="header-container" class="flex w-[95%] justify-between items-center pt-3  mx-auto ">
@@ -139,14 +140,14 @@
             <div id="container-body" class="w-[90%] h-max mx-auto mt-[15px] relative">
               <img class="absolute right-[-3%] top-[8%] z-20 border border-white rounded-full" width="200px" src="/assets/images/profile.jpg" alt="">
                 <div id="skill-box" class="w-[150px] h-[270px] overflow-hidden rounded-[20px] bg-items-color inline-block mr-[2%]">
-                  <ul class="px-2.5 list-disc">
+                  <ul id="skill-ul" class="px-2.5 list-disc">
                     <li class="text-center list-none"><strong>Skills</strong></li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>js vanilla</li>
-                    <li>scss</li>
-                    <li>tailwind</li>
-                    <li>JQUERY</li>
+                    <li class="translate-x-[-90px] duration-200">HTML</li>
+                    <li class="translate-x-[-90px] duration-200">CSS</li>
+                    <li class="translate-x-[-90px] duration-200">js vanilla</li>
+                    <li class="translate-x-[-90px] duration-200">scss</li>
+                    <li class="translate-x-[-90px] duration-200">tailwind</li>
+                    <li class="translate-x-[-90px] duration-200">JQUERY</li>
 
                   </ul>
                 </div>
@@ -171,21 +172,41 @@
                     </div>
                 </div>
                 <div id="projectBar" class="w-[1030px] rounded-3xl custom h-max flex justify-between gap-2 overflow-x-auto">
-                    <div id="library" class=" inline-flex flex-col justify-end overflow-hidden h-[190px] min-w-32 rounded-3xl bg-amber-700">
-                      <div class="h-1/2 w-full backdrop-blur-sm">
-                        <h1 class="capitalize text-center">library</h1>
+                    <div id="library" class="group inline-flex flex-col justify-end overflow-hidden h-[190px] min-w-32 rounded-3xl bg-amber-700">
+                      <div id="library-text" class="h-1/2 w-full backdrop-blur-sm translate-y-[64px] group-hover:translate-y-0 duration-200">
+                        <h1 class="capitalize text-center  bg-[rgba(20,49,91,0.59)]">library</h1>
                       </div>
                     </div>
-                    <div id="gems" class=" inline-flex flex-col justify-end overflow-hidden h-[190px] min-w-32 rounded-3xl bg-amber-700">
-                      <div  class="h-1/2 w-full backdrop-blur-sm">
-                        <h1 class="capitalize text-center">gems</h1>
+                    <div id="gems" class="group inline-flex flex-col justify-end overflow-hidden h-[190px] min-w-32 rounded-3xl bg-amber-700">
+                      <div id="gems-text"  class="h-1/2 w-full backdrop-blur-sm translate-y-[64px] group-hover:translate-y-0 duration-200">
+                        <h1 class="capitalize text-center  bg-[rgba(20,49,91,0.59)]">gems</h1>
                       </div>
                     </div>
-                    <div class=" inline-flex flex-col justify-end overflow-hidden h-[190px] min-w-32 rounded-3xl bg-amber-700"></div>
-                    <div class=" inline-flex flex-col justify-end overflow-hidden h-[190px] min-w-32 rounded-3xl bg-amber-700"></div>
-                    <div class=" inline-flex flex-col justify-end overflow-hidden h-[190px] min-w-32 rounded-3xl bg-amber-700"></div>
-                    <div class=" inline-flex flex-col justify-end overflow-hidden h-[190px] min-w-32 rounded-3xl bg-amber-700"></div>
-                    <div class=" inline-flex flex-col justify-end overflow-hidden h-[190px] min-w-32 rounded-3xl bg-amber-700"></div>
+                    <div id="bmi-calc" class="group inline-flex flex-col justify-end overflow-hidden h-[190px] min-w-32 rounded-3xl bg-amber-700">
+                      <div id="bmi-text"  class="h-1/2 w-full backdrop-blur-sm translate-y-[64px] group-hover:translate-y-0 duration-200">
+                        <h1 class="capitalize text-center  bg-[rgba(20,49,91,0.59)]">bmi cal</h1>
+                      </div>
+                    </div>
+                    <div id="shop" class="group inline-flex flex-col justify-end overflow-hidden h-[190px] min-w-32 rounded-3xl bg-amber-700">
+                      <div id="shop-text" class="h-1/2 w-full backdrop-blur-sm translate-y-[64px] group-hover:translate-y-0 duration-200">
+                        <h1 class="capitalize text-center  bg-[rgba(20,49,91,0.59)]">shop sample</h1>
+                      </div>
+                    </div>
+                    <div id="todo" class="group inline-flex flex-col justify-end overflow-hidden h-[190px] min-w-32 rounded-3xl bg-amber-700">
+                      <div id="todo-text" class="h-1/2 w-full backdrop-blur-sm translate-y-[64px] group-hover:translate-y-0 duration-200">
+                        <h1 class="capitalize text-center  bg-[rgba(20,49,91,0.59)]">todo app</h1>
+                      </div>
+                    </div>
+                    <div id="site" class="group inline-flex flex-col justify-end overflow-hidden h-[190px] min-w-32 rounded-3xl bg-amber-700">
+                      <div id="site-text" class="h-1/2 w-full backdrop-blur-sm translate-y-[64px] group-hover:translate-y-0 duration-200">
+                        <h1 class="capitalize text-center  bg-[rgba(20,49,91,0.59)]">site sample</h1>
+                      </div>
+                    </div>
+                    <div id="art" class="group inline-flex flex-col justify-end overflow-hidden h-[190px] min-w-32 rounded-3xl bg-amber-700">
+                      <div id="art-text" class="h-1/2 w-full backdrop-blur-sm translate-y-[64px] group-hover:translate-y-0 duration-200">
+                      <h1 class="capitalize text-center  bg-[rgba(20,49,91,0.59)]">art</h1>
+                    </div>
+                  </div>
                     
 
                 </div>

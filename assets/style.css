@@ -31,3 +31,23 @@ body {
     background: no-repeat url(/assets/images/gems.png) right;
     background-size: cover;
   }
+  #bmi-calc{
+    background: no-repeat url(/assets/images/bmi.png) center;
+    background-size: cover;
+  }
+  #shop{
+    background: no-repeat url(/assets/images/shop.png) right;
+    background-size: cover;
+  }
+  #todo{
+    background: no-repeat url(/assets/images/todo.png) left;
+    background-size: cover;
+  }
+  #site{
+    background: no-repeat url(/assets/images/site.png) center;
+    background-size: cover;
+  }
+  #art{
+    background: no-repeat url(/assets/images/art.png) center;
+    background-size: cover;
+  }
