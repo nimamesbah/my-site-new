@@ -295,24 +295,12 @@
   .border-collapse {
     border-collapse: collapse;
   }
-  .translate-x-\[-40px\] {
-    --tw-translate-x: -40px;
-    translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
-  .translate-x-\[-70px\] {
-    --tw-translate-x: -70px;
-    translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
   .translate-x-\[-90px\] {
     --tw-translate-x: -90px;
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
   .translate-x-\[284px\] {
     --tw-translate-x: 284px;
-    translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
-  .translate-y-\[10px\] {
-    --tw-translate-y: 10px;
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
   .translate-y-\[64px\] {
@@ -386,9 +374,6 @@
   .bg-items-color {
     background-color: var(--color-items-color);
   }
-  .bg-white {
-    background-color: var(--color-white);
-  }
   .px-2 {
     padding-inline: calc(var(--spacing) * 2);
   }
@@ -400,9 +385,6 @@
   }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
-  }
-  .py-2\.5 {
-    padding-block: calc(var(--spacing) * 2.5);
   }
   .pt-3 {
     padding-top: calc(var(--spacing) * 3);
@@ -467,11 +449,10 @@
       }
     }
   }
-  .hover\:translate-y-0 {
+  .hover\:scale-\[1\.1\] {
     &:hover {
       @media (hover: hover) {
-        --tw-translate-y: calc(var(--spacing) * 0);
-        translate: var(--tw-translate-x) var(--tw-translate-y);
+        scale: 1.1;
       }
     }
   }
